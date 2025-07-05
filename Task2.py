@@ -101,7 +101,7 @@ class HumanPlayer:
                 print("Invalid square. Try again.")
         return val
 
-class GeniusComputerPlayer:
+class ComputerPlayer:
     def __init__(self, letter):
         self.letter = letter
 
@@ -158,5 +158,5 @@ if __name__ == "__main__":
     print("Welcome to Tic Tac Toe!")
     t = TicTacToe()
     x_player = HumanPlayer("X")
-    o_player = GeniusComputerPlayer("O")
+    o_player = ComputerPlayer("O")
     play(t, x_player, o_player, print_game=True)
