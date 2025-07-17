@@ -7,7 +7,7 @@ while True:
     user_input = input("You: ").lower()
 
     if user_input in ["hi", "hello", "hey"]:
-        print("YLionot: Hey! Nice to see you. How can I help you today?")
+        print("Liobnot: Hey! Nice to see you. How can I help you today?")
 
     elif "your name" in user_input:
         print("Lionbot: I'm Lionbot, your virtual buddy. What's your name?")
